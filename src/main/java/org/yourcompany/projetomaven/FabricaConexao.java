@@ -15,8 +15,8 @@ public class FabricaConexao {
     public static void conectar(){
         String url = "jdbc:postgresql://localhost:5432/rocket_db";
         Properties props = new Properties();
-        props.setProperty("user", "postgres");
-        props.setProperty("password", "admin");
+        props.setProperty("user", "/*****");
+        props.setProperty("password", "****");
 
         try {
             conexao = DriverManager.getConnection(url, props);
